@@ -24,4 +24,3 @@ def calculate(argv):
 if __name__ == "__main__":
     import sys
     calculate(sys.argv)
-  
