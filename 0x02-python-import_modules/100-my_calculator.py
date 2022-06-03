@@ -17,7 +17,7 @@ def calculate(argv):
     elif opr == '/':
         print("{:d} {:s} {:d} = {:d}".format(a, opr, b, div(a, b)))
     else:
-        print("Unknown operator. Available operators: +, -, *, and /")
+        print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
 
 
