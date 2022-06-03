@@ -5,6 +5,7 @@ def add_args(argv):
         res += int(argv[i])
     print("{:d}".format(res))
 
+
 if __name__ == "__main__":
     import sys
     add_args(sys.argv)
