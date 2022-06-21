@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Define a class Square."""
+
+
 class Square:
     """ creates a square and determines area and prints"""
     def __init__(self, size=0):
