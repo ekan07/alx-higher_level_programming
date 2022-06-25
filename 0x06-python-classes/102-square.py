@@ -20,20 +20,12 @@ class Square:
             TypeError: if size is not an integer.
             ValueError: if size is less than zero.
         """
-        if not isinstance(size, int):
-            raise TypeError('size must be an integer')
-        if size < 0:
-            raise ValueError('size must be >= 0')
         self.__size = size
-
-    def area(self):
-        """Computes square area."""
-        return(self.__size ** 2)
 
     @property
     def size(self):
         """Gets size."""
-        return self.__size
+        return (self.__size)
 
     @size.setter
     def size(self, value):
@@ -42,8 +34,31 @@ class Square:
             TypeError: if value is not an integer.
             ValueError: if value is less than zero.
         """
-        if not isinstance(value, int):
-            raise TypeError('size must be an integer')
+        if not (
+                isinstance(value, float) or isinstance(value, int)):
+            raise TypeError("size must be a number")
         if value < 0:
-            raise ValueError('size must be >= 0')
+            raise ValueError("size must be >= 0")
         self.__size = value
+
+    def area(self):
+        """Computes square area."""
+        return (self.__size ** 2)
+
+    def __eq__(self, other):
+        return (self.area() == other.area())
+
+    def __lt__(self, other):
+        return (self.area() < other.area())
+
+    def __le__(self, other):
+        return (self.area() <= other.area())
+
+    def __ne__(self, other):
+        return (self.area() != other.area())
+
+    def __gt__(self, other):
+        return (self.area() > other.area())
+
+    def __ge__(self, other):
+        return (self.area() >= other.area())
