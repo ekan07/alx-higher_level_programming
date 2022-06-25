@@ -89,5 +89,4 @@ class SinglyLinkedList:
             node_list.append(node.data)
             node = node.next_node
         res = "\n".join(str(itm)for itm in node_list)
-        return f"{res}"
-    
+        return res
