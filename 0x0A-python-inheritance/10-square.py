@@ -23,6 +23,7 @@ class Square(Rectangle):
         self.__size = size
 
     def __str__(self):
+        """Return a formatted string"""
         return super().__str__()
 
     def area(self):
