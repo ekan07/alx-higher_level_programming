@@ -3,6 +3,7 @@
 Module 0-lookup
 """
 
+
 def lookup(obj):
     """
     Args:

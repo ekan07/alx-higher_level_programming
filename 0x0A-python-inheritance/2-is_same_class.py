@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module 2-is_same_class"""
 
+
 def is_same_class(obj, a_class):
     """
     is_same_class determines if is an instance of class.
