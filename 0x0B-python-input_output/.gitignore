@@ -1,0 +1,4 @@
+*.txt
+[[:digit:]]*-main.py
+*.json
+__pycache__
