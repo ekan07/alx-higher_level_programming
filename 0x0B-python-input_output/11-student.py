@@ -3,6 +3,7 @@
 Creates a Student class.
 """
 
+
 class Student:
     """class that defines a Student object.
     Args:
@@ -32,7 +33,7 @@ class Student:
                     my_dict.update({i: self.__dict__[i]})
             return my_dict
         return self.__dict__
-    
+
     def reload_from_json(self, json):
         """Replaces all attributes of the Student instance.
         Args:
