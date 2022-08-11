@@ -14,3 +14,9 @@ Files | Description
 [8-cities_of_california_subquery.sql](./8-cities_of_california_subquery.sql) | sql script that lists all the cities of California that can be found in the database hbtn_0d_usa
 [9-cities_by_state_join.sql](./9-cities_by_state_join.sql) | sql script that lists all cities contained in the database hbtn_0d_usa
 [10-genre_id_by_show.sql](./10-genre_id_by_show.sql) | sql script that lists all shows contained in hbtn_0d_tvshows that have at least one genre linked
+[11-genre_id_all_shows.sql](./11-genre_id_all_shows.sql) | sql script that lists all shows contained in the database hbtn_0d_tvshows
+[12-no_genre.sql](./12-no_genre.sql) | sql script that lists all shows contained in hbtn_0d_tvshows without a genre linked
+[13-count_shows_by_genre.sql](./13-count_shows_by_genre.sql) | sql script that lists all genres from hbtn_0d_tvshows and displays the number of shows linked to each
+[14-my_genres.sql](./14-my_genres.sql) | sql script that uses the hbtn_0d_tvshows database to lists all genres of the show Dexter
+[15-comedy_only.sql](./15-comedy_only.sql) | sql script that lists all Comedy shows in the database hbtn_0d_tvshows
+[16-shows_by_genre.sql](./16-shows_by_genre.sql) | sql script that lists all shows, and all genres linked to that show, from the database hbtn_0d_tvshows
