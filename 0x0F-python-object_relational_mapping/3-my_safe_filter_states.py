@@ -13,3 +13,5 @@ if __name__ == "__main__":
     rows_data = cur.fetchall()
     for row in rows_data:
         print(row)
+    cur.close()
+    db.close()
