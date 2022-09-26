@@ -12,7 +12,7 @@ if __name__ == '__main__':
     # in your case, a personal access token as password
     password = argv[2]
     req = requests.get('https://api.github.com/user',
-                     auth=(username, password))
+                       auth=(username, password))
     if req.status_code == 200:
         print(req.json().get('id'))
     else:
